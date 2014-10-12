@@ -7,7 +7,7 @@ TryRuby is a gem repl version of the wonderful website tryruby.org
 
 ## Installation
 
-    gem install tryruby
+    gem install rails-girls-sofia-tryruby
 
 And then execute to run through the exercise:
 
