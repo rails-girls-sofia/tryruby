@@ -5,7 +5,7 @@ module TryRuby
     end
 
     def script
-      @script ||= Script.new("scripts/default.json")
+      @script ||= Script.new(File.expand_path("../../../scripts/default.json", __FILE__))
     end
 
     def start
